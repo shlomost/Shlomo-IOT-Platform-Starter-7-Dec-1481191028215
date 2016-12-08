@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Shlomo-IOT-Platform-Starter-7-Dec
+  host: Shlomo-IOT-Platform-Starter-7-Dec
+  disk_quota: 1024M
+  services:
+  - Shlomo-IOT-Platform-Starter-7-Dec-cloudantNoSQLDB
+  - Shlomo-IOT-Platform-Starter-7-Dec-iotf-service
